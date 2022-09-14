@@ -19,9 +19,9 @@ export class Counter extends React.Component {
     render() {
         return (
             <div>
-                <h1>Contou {this.state.count} vezes</h1>
+                <h1>Contou {this.state.count} vezes.</h1>
                 <label htmlFor="input-step" className='input-step-l'>
-                    Número de Passos
+                    Número de Passos:
                     <input id='input-step' type="text" value={this.state.countStep} onChange={this.handleChange} />
                 </label>
                 <br />
