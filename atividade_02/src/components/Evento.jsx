@@ -8,11 +8,11 @@ export default function Evento({nome, data, hora, local, cidade, genero}) {
                 {nome}
             </h1>
             <ul>
-                <li>Data:  <strong>{data}</strong></li>
-                <li>Horário: <strong>{hora}</strong></li>
-                <li>Local: <strong>{local}</strong></li>
-                <li>Cidade: <strong>{cidade}</strong></li>
-                <li>Gênero: <strong>{genero}</strong></li>
+                <li>Data:<strong>{data}</strong></li>
+                <li>Horário:<strong>{hora}</strong></li>
+                <li>Local:<strong>{local}</strong></li>
+                <li>Cidade:<strong>{cidade}</strong></li>
+                <li>Gênero:<strong>{genero}</strong></li>
             </ul>
             <h3>Ingressos</h3>
             <TipoIngresso tipoIngressos={tipoIngressos}/>
